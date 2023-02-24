@@ -8,7 +8,7 @@
 
 Advantages:
 * Simple, readable, efficient code. Avoided using unnecessary features/modules/structures that would create an overkill solution.
-* Tested solution against various (self-created) test data/edge cases. For example: testing.csv tests if negative payer balances are handled accurately. Note: There was some lack of clarity in the document regarding whether negative payer balances must be handled as soon as they go negative or if the points should be redistributed by preserving date order in the end. I implemented the later using my best judgement.
+* Tested solution against various (self-created) test data/edge cases. For example: testing.csv tests if negative payer balances are handled accurately. Note: There was some lack of clarity in the document regarding whether negative payer balances must be handled as soon as they go negative or if the points should be redistributed by preserving date order in the end. I implemented the later using my best judgement since we weren't allowed to clarify. The result of "testing2.csv" will differ based on that choice. 
 * Kept code modular and flexible with default values that can be altered for testing purposes.
 * Good Documentation. Utilized in-line comments as well as method docs.
 

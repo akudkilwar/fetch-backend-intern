@@ -5,7 +5,7 @@ import sys
 
 
 # returns a list in sorted order by date by parsing csv.
-def extractSortedListFromCSV(csv_name="testing2.csv"):
+def extractSortedListFromCSV(csv_name="transactions.csv"):
     date_format = "%Y-%m-%dT%H:%M:%SZ"
 
     with open(csv_name, 'r') as file:
