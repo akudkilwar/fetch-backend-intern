@@ -1,0 +1,22 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+* The reason I chose Python as the language of implementation for this coding exercise is because of it's versatility when it comes to dealing with csv files, overall code readability and data structure support.
+* The collections package, which has the OrderedDict data structure, is a pretty nifty tool to solve this problem and Python also avoid extra syntactical overhead unlike Java/C++.
+
+
+2. What are the advantages and disadvantages of your solution?
+
+Advantages:
+* Simple, readable, efficient code. Avoided using unnecessary features/modules/structures that would create an overkill solution.
+* Tested solution against various (self-created) test data/edge cases. For example: testing.csv tests if negative payer balances are handled accurately. Note: There was some lack of clarity in the document regarding whether negative payer balances must be handled as soon as they go negative or if the points should be redistributed by preserving date order in the end. I implemented the later using my best judgement.
+* Kept code modular and flexible with default values that can be altered for testing purposes.
+* Good Documentation. Utilized in-line comments as well as method docs.
+
+Disadvantages:
+* Speed of exectution will be inherently slower than implementations in lower level languages such as C++.
+
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+My favorite project has been a road safety web app that I created using Flask(Python), HTML + CSS, Bootstrap. It used routing APIs to provide the top alternate safest routes between 2 locations by analyzing about 300 million data points of accidents and crashes across the US.
+The most challenging part about it was working with the huge volume of data and getting it to execute the results in a reasonable time frame. I ended up having to optimize the algorithm multiple times and researching tech-stack solutions. Ultimately, a better algorithm and usage of Cython helped solve the issue.
